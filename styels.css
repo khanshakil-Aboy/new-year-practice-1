@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* banner section */
+.new-banner{
+
+background-image: url(/images/banner.jpg);
+background-repeat: no-repeat;
+
+    width: 840px;
+    height: 300px;
+    margin: 30px auto;
+    padding: 90px 150px;
+    text-align: center;
+    background-size: cover;
+    border-radius: 15px;
+
+  
+}
+
+.new-banner p{
+   font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100; 
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-top: 20px;
+
+}
+
+.new-banner h2{
+     font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-size:72px ;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+/* section off */
+
+.off{
+    width: 800px;
+    height: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.off-title{
+    color: #FF0000;
+    font-size: 58px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.off p{
+    font-size: 16px;
+    color: #FF0000;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 15px 0px 15px 0px;
+    
+}
+
+.off-sub-title{
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: bold;
+
+}
+
+.off img{
+    margin: 30px 0px;
+
+    height: 500px;
+}
+
+/* jahannam */
+
+.jahannam{
+    background-image: url(/images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 840px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 90px 150px;
+    margin-bottom: 50px;   
+    border-radius: 15px;
+
+}
+
+.jahannam-title{
+    font-size: 50px;
+    font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    color: #FFFFFF;
+}
+
+.jaha-div{
+    width: 450px;
+    padding-top: 40px;
+    
+}
+
+.jahannam-dis{
+    color: rgba(255, 255, 255, 0.719);
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.jahannam a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.jahannam a:hover{
+    color: #FF0000;
+}
+
+/* Seaction linner */
+
+.linner{
+    width: 840px;
+    height: 250px;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.24),white);
+    margin: 0 auto;
+    text-align: center;
+    padding: 90px 150px;
+    border-radius: 15px;
+
+
+}
+
+.linner-title{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-bottom: 15px;
+
+}
+
+.linner-title span{
+    color: #FF0000;
+}
+
+.linner-button{
+    background-color: #FF0000;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
